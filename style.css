@@ -1,0 +1,306 @@
+body {
+    font-family: 'Lexend';
+}
+
+.banner {
+    width: calc(100% + 20px);
+    margin-left: -10px;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+    background: white;
+}
+
+.title1 {
+    position: absolute;
+    width: 248px;
+    height: 40px;
+    left: 24px;
+    top: 23px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    float: left;
+    color: #000000;
+}
+
+.title2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    float: right;
+    padding: 35px;
+}
+
+.active, .title2 > a:hover{
+    color: darkcyan !important;
+}
+
+.title2-mobile {
+    background-color: red;
+    display: none;
+}
+
+.title2 a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.title3 {
+    position: absolute;
+    width: 50%;
+    height: 161px;
+    left: 37px;
+    top: 248px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+.title4 {
+    position: absolute;
+    width: 50%;
+    height: 80px;
+    left: 37px;
+    top: 409px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.title5 {
+    width: 100%;
+    height: 50px;
+    left: 100px;
+    top: 39px;
+    text-align: center;
+    padding-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.content1 {
+    width: 100%;
+    height: 293px;
+    left: 102px;
+    top: 164px;
+    margin: 10px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 40px;
+    color: #000000;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    width: 80%;
+    text-align: justify;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.image1 {
+    display: inline-flex;
+    width: 49%;
+    height: 170px;
+    padding-top: 30px;
+}
+
+.contentimage {
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.contentimage1 {
+    padding-left: 30px;
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+.species {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.image2 {
+    display: inline-flex;
+    height: 170px;
+    padding-top: 30px;
+}
+
+.contentimage2 {
+    padding-left: 30px;
+}
+
+.contentimage2 img {
+    display: block;
+}
+
+.contentimage2 span {
+    display: block;
+    font-size: 15px;
+}
+
+.prev {
+    margin-top: 50px;
+    float: right;
+}
+
+
+@media screen and (max-width: 800px) {
+    .banner {
+        width: auto;
+    }
+
+    .title1 {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        width: -webkit-fill-available;
+    }
+
+    .title3 {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .title4 {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .image1 {
+        display: flex;
+    }
+    .image2{
+        display: inline;
+    }
+
+    .image2 img{
+        width: 60%;
+        padding-top: 30px;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .contentimage2 {
+        padding-left: 0;
+    }
+}
+
+.footer {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   background-image: url(https://images.unsplash.com/photo-1612476919598-a233d3692cc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+   padding-top: 2rem;
+}
+
+.footercontainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.teksfooter {
+    display: flex;
+    align-items: center;
+}
+
+.teksfooter img {
+    width: 30px;
+    height: 30px;
+}
+
+.socialmedia {
+    display: flex;
+    column-gap: 25px;
+}
+
+.title1book {
+    width: 100%;
+    height: 50px;
+    left: 100px;
+    top: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+}
+
+.labelformbooking {
+    width: 33%;
+    display: -webkit-inline-box;
+    margin-left:5%;
+}
+
+.table > div {
+    display: inline-table;
+    width: 23%;
+    padding-left: 60px;
+}
+
+.title1gallery {
+    width: 100%;
+    height: 50px;
+    left: 100px;
+    top: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image {
+    width: 80%;
+    margin-left: 10%;
+}
+.image > img{
+    column-gap: 3%;
+    width: 32%;
+}
